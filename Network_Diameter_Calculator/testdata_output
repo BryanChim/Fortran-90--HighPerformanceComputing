@@ -1,0 +1,24 @@
+ Results for testdata.dat                                      
+  
+ #pairs:            9
+ #unique nodes:            8
+ Initial Matrix
+ A                    0           1           1           0           0           0           0           0
+ C                    1           0           0           1           0           1           0           0
+ G                    1           0           0           0           0           0           0           1
+ B                    0           1           0           0           1           0           0           0
+ E                    0           0           0           1           0           1           1           1
+ F                    0           1           0           0           1           0           0           0
+ D                    0           0           0           0           1           0           0           0
+ H                    0           0           1           0           1           0           0           0
+ Final Matrix
+ A                    7           0           0           7           0           7           3           6
+ C                    0          14           7           0          15           0           0           0
+ G                    0           7           6           0           8           0           0           0
+ B                    7           0           0          11           0          11           6           8
+ E                    0          15           8           0          21           0           0           0
+ F                    7           0           0          11           0          11           6           8
+ D                    3           0           0           6           0           6           4           5
+ H                    6           0           0           8           0           8           5           8
+  
+ Network Diameter =           4

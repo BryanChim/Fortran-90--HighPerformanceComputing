@@ -1,0 +1,37 @@
+
+9 minutes to cat output* file for n=30
+___________________________
+AVERAGES for n=20:
+
+1 thread: 29.88
+2 threads: 18.14
+4 threads: 11.43
+8 threads: 7.51
+16 threads: 3.29
+32 threads: 3.49
+64 threads: 1.646664
+128 threads: 0.85369
+256 threads: 0.439743
+512 threads: 0.2760069
+1024 threads: 0.2121269
+2048 threads: 2.72636
+
+cat output* > combined_output
+___________________________
+
+for n=25, 256 threads
+16.07701 CPU time (each)
+544 seconds (real time)
+
+for n=25, 512 threads
+8.76 CPU time (each)
+267 seconds (real time)
+
+for n=25, 1024 threads
+4.103672 CPU time (each)
+266 seconds (real time)
+
+for n=25, 2048 threads
+2.418781 CPU time (each)
+312 seconds (real time)
+
