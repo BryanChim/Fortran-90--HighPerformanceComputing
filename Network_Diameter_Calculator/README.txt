@@ -1,10 +1,10 @@
-**network_diameter.f90** accepts an input data file containing undirected node to node pairs, in the format:
+network_diameter.f90 accepts an input data file containing undirected node to node pairs, in the format:
 
 <NODE1>,<NODE2>
 ...
 ...
 
-EXAMPLES: **testdata.dat** or **networkdata.dat**
+EXAMPLES: testdata.dat or networkdata.dat
 
 And outputs:
 1) Number of node-node pairs found

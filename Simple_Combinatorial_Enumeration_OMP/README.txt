@@ -1,17 +1,17 @@
-**simple_combinatorial_enumeration_OMPmotB.f90** uses the same fundamental algorithm as simple_combinatorial_enumeration.f90 (see **Simple_Combinatorial_Enumeration/README.txt**) but attempts to do it:
+simple_combinatorial_enumeration_OMPmotB.f90 uses the same fundamental algorithm as simple_combinatorial_enumeration.f90 (see Simple_Combinatorial_Enumeration/README.txt) but attempts to do it:
 
 - on a larger set of ICD-9 four-letter codes (see n3/n4_exapmle_output.jpg)
 - using multiple threads via OMP to parallelize the computation
 
-I continued to perform timing tests to evaluate of the efficacy of parallelization -- you can find my results in the files **"n20 plot.jpg"** and **"n25 plot.jpg"**
+I continued to perform timing tests to evaluate of the efficacy of parallelization -- you can find my results in the files "n20 plot.jpg" and "n25 plot.jpg"
 
 * The way the parallelization is done is, essentially, instead of piling up all the recursive calls on one thread, the recursive calls are split up across an even number of threads at an appropriate point in the binary tree. See binary tree images for examples:
 
-N = 4, Serial: **binary_tree_n4_serial.jpg**
+N = 4, Serial: binary_tree_n4_serial.jpg
 
-N = 4, 4 threads: **binary_tree_n4_4threads.jpg**
+N = 4, 4 threads: binary_tree_n4_4threads.jpg
 
-N = 4, 8 threads: **binary_tree_n4_8threads.jpg**
+N = 4, 8 threads: binary_tree_n4_8threads.jpg*
 
 *********************************************
 

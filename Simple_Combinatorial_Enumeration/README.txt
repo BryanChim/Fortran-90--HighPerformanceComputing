@@ -1,4 +1,4 @@
-**simple_combinatorial_enumeration.f90** performs a series of combinatorial enumeration trials (10 trial for each label n = 5, n = 10 and n = 15, currently) and calculates the average CPU time required to complete in each case. 
+simple_combinatorial_enumeration.f90 performs a series of combinatorial enumeration trials (10 trial for each label n = 5, n = 10 and n = 15, currently) and calculates the average CPU time required to complete in each case. 
 
 Simple combinatorial enumeration is the calculation of every possible subset of a set. 
 
@@ -12,7 +12,7 @@ ie. for set {A, B, C}, all possible subsets are:
 {C}
 {}
 
-EXAMPLE: see **"subsets n 3 4 5.jpg"** for a listing of subsets for n=3,4,5
+EXAMPLE: see "subsets n 3 4 5.jpg" for a listing of subsets for n=3,4,5
 
 This program uses the recursive algorithm explained on this web page: http://cod3rutopia.blogspot.com/2013/07/finding-all-subsets-of-set.html
 
