@@ -1,6 +1,6 @@
 simple_combinatorial_enumeration_OMPmotB.f90 uses the same fundamental algorithm as simple_combinatorial_enumeration.f90 (see Simple_Combinatorial_Enumeration/README.txt) but attempts to do it:
 
-- on a larger set of ICD-9 four-letter codes (see n3/n4_exapmle_output.jpg)
+- on a larger set of ICD-9 four-letter codes (see n3/n4_example_output.jpg)
 - using multiple threads via OMP to parallelize the computation
 
 I continued to perform timing tests to evaluate of the efficacy of parallelization -- you can find my results in the files "n20 plot.jpg" and "n25 plot.jpg"
